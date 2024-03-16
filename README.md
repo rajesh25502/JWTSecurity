@@ -6,6 +6,7 @@ Create a loacl database - and change database name in application.properties
 Endpoints to test
 
 To signUp as (admin and user) -> http://localhost:8080/auth/signUp
+
 body :
 {
     "name":"admin",
@@ -16,6 +17,7 @@ body :
 
 
 To sign in as (admin and user) -> http://localhost:8080/auth/signIn
+
 body :
 {
     "email":"admin@gmail.com",
@@ -24,6 +26,7 @@ body :
 
 
 To create new Prodct (only admin user can add) -> http://localhost:8080/admin/saveProduct
+
 body :
 {
     "name":"Oracle"
